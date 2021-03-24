@@ -1,4 +1,4 @@
-body{
+body {
     -webkit-text-size-adjust: 100%;
     background-color:rgb(238, 237, 237) ;
     margin-left: 443px;
@@ -79,7 +79,7 @@ li  {
     text-decoration: none;
     }
   
- .botonLink:visited {
+.botonLink:visited {
     text-decoration: none;
     }
   
@@ -107,19 +107,19 @@ li  {
     font-family: 'Open Sans', sans-serif;
     }
 
- .Links:link {
+.Links:link {
     text-decoration: none;
     }
   
- .Links:visited {
+.Links:visited {
     text-decoration: none;
     }
   
-  .Links:hover {
+.Links:hover {
     text-decoration: underline;
     }
   
-  .Links:active {
+.Links:active {
     text-decoration: underline;
     }
 

@@ -1,10 +1,10 @@
-body{
+body {
     -webkit-text-size-adjust: 100%;
     background-color:rgb(238, 237, 237) ;
     margin-left: 443px;
     margin-right: 800px;
     margin-bottom: 150px;
-}
+    }
 h1 {
     font-family: 'Roboto Condensed';
     font-size: 42px;
@@ -13,58 +13,55 @@ h1 {
     font-style: normal;
     display: block;
     }
-    .autor{
-        font-size: 13px;
+.autor {
+    font-size: 13px;
     }
 
 h2 {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 20px;    
-        }
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;    
+    }
 
 .Links {
     color: #DC191B;
     font-family: 'Open Sans', sans-serif;
-    
     }
 
- .Links:link {
+.Links:link {
     text-decoration: none;
-  }
+    }
   
- .Links:visited {
+.Links:visited {
     text-decoration: none;
-  }
+    }
   
-  .Links:hover {
+.Links:hover {
     text-decoration: underline;
-  }
-  
-  .Links:active {
+    }
+   
+.Links:active {
     text-decoration: underline;
-  }
-#salto{
+    }
+#salto {
     visibility: hidden;
-}
+    }
 
-.logo:hover{
+.logo:hover {
     text-decoration: none;
     opacity: 0.8;
-    
-}
+    }
 
 p   {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;    
-    
-}
+    }
 
 ul  {
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;    
     margin: 0px;
     padding-left: 0px;
-}
+    }
 
 li  {
     vertical-align: baseline;
@@ -72,28 +69,58 @@ li  {
     list-style: disc inside none;
     font-size: 16px;
     line-height: 1.5;
-}
+    }
 
-#videoDiablo{
+#videoDiablo {
     height: 400px;
     width: 660px;
-}
+    }
 
-#logoReddit{
+#logoReddit {
     height: 28px;
     width: 28px;
-}
+    }
 
-.logo{
+.logo {
     height: 30px;
     width: 30px;
-}
+    }
 
-.logoComments{
+.logoComments {
     height: 30px;
     width: 120px;
     border-left: solid 1px #0F1618;
     padding-left: 8px;
     margin-left: 8px;
-}
+    }
+.botonLink {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 10px;
+    border: solid 1px #bd1b1d;
+    background-color: #bd1b1d;
+    border-radius: 5px;
+    }
 
+.botonLink:link {
+    text-decoration: none;
+    }
+  
+.botonLink:visited {
+    text-decoration: none;
+    }
+  
+.botonLink:hover {
+    text-decoration: none;
+    box-shadow: 2px 3px 4px grey;
+    }
+  
+.botonLink:active {
+    text-decoration: underline;
+    }
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    }
